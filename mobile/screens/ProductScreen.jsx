@@ -10,13 +10,13 @@ export default function ProductScreen({route}) {
 
     const {id} = route.params;
     const products = useSelector((state) => state.toolkit.product);
+    const apiBase = useSelector((state) => state.toolkit.apiBase);
     const dispatch = useDispatch();
-
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const {data} = await axios.get(`http://192.168.3.13:8080/api/products/category/${id}`);
+                const {data} = await axios.get(`${apiBase}/products/category/${id}`);
                 console.log(data);
 
                 dispatch(loadProduct(data));

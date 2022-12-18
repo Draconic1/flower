@@ -7,12 +7,13 @@ import {useDispatch, useSelector} from "react-redux";
 
 export default function Home({ navigation }) {
     const categories = useSelector(state => state.toolkit.category);
+    const apiBase = useSelector((state) => state.toolkit.apiBase);
     const dispatch = useDispatch();
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const {data} = await axios.get(`http://192.168.3.13:8080/api/category/`);
+                const {data} = await axios.get(`${apiBase}/category/`);
                 console.log(data);
 
                 dispatch(loadCategory(data));
