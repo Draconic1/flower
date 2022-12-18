@@ -6,7 +6,7 @@ const slice = createSlice({
         isLoading: true,
         category: [],
         product: [],
-        apiBase: "http://192.168.3.13:8080/api",
+        apiBase: "http://ip_компа:8080/api",
     },
     reducers: {
         setLoading(state, action) {
