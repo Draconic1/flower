@@ -31,3 +31,4 @@ INSERT products(name, price, image, category_id, createdAt, updatedAt)
 VALUES ('Букет 7 белых гипсофил', 2790, 'https://tsvet-ryad.ru/upload/resize_cache/iblock/4eb/242_242_0/1.jpg', 3, '2022-12-11 18:26:00', '2022-12-11 18:26:00');
 INSERT products(name, price, image, category_id, createdAt, updatedAt) 
 VALUES ('Букет из 101 розы', 14000, 'https://tsvet-ryad.ru/upload/resize_cache/iblock/802/242_242_0/karmel_trio_1_.jpg', 3, '2022-12-11 18:26:00', '2022-12-11 18:26:00');
+
