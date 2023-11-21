@@ -1,3 +1,17 @@
+# Flower shop   
+
+<img src="https://github.com/Draconic1/flower/blob/main/img/start.png" alt="Startpage screenshot" height="80%" width="80%"> 
+  
+<img src="https://github.com/Draconic1/flower/blob/main/img/bouquets.png" alt="Film about screenshot" height="80%" width="80%"> 
+  
+<img src="https://github.com/Draconic1/flower/blob/main/img/profile.png" alt="Film about screenshot" height="80%" width="80%"> 
+
+<details><summary>Screenshots of some other pages:</summary> 
+<img src="https://github.com/Draconic1/flower/blob/main/img/search.png" alt="Search" height="80%" width="80%"> 
+   
+<img src="https://github.com/Draconic1/flower/blob/main/img/admin.png" alt="Admin panel" height="80%" width="80%"> 
+</details>
+
 1. создать пользователя бд     
   localhost  
   authentication type: Standard !!!!
