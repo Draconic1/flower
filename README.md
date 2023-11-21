@@ -1,22 +1,15 @@
-1. создать пользователя бд    
-  имя sonya   
-  пароль 1234    
+1. создать пользователя бд     
   localhost  
   authentication type: Standard !!!!
 
 2. создать БД в воркбенче  
   CREATE DATABASE flower;  
-  GRANT ALL PRIVILEGES ON flower.* TO sonya@'localhost';  
+  GRANT ALL PRIVILEGES ON flower.* TO dbuser@'localhost';  
 
-3. перенос проекта:  
-  git init  
-  git clone https://github.com/Draconic1/sonyalab.git  
-  npm i  
-
-4. запустить бэк  
-  запустить в воркбенче sonya.sql  
+3. запустить бэк  
+  запустить в воркбенче describe.sql  
  
-5. после первого запуска бэка в файле server.js (бэк)  изменить строки:  
+4. после первого запуска бэка в файле server.js (бэк)  изменить строки:  
   30 строка: .sync({ force: true}) изменить на  .sync({ })    (убрать force: true)  
   удалить 33 строку  initial();   
   иначе БД будет каждый раз пересоздаваться
