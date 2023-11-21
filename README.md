@@ -7,7 +7,7 @@
   GRANT ALL PRIVILEGES ON flower.* TO dbuser@'localhost';  
 
 3. запустить бэк  
-  запустить в воркбенче describe.sql  
+  запустить в воркбенче database.sql  
  
 4. после первого запуска бэка в файле server.js (бэк)  изменить строки:  
   30 строка: .sync({ force: true}) изменить на  .sync({ })    (убрать force: true)  
