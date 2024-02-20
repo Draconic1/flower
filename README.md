@@ -13,7 +13,7 @@
 </details>
 
   Стек технологий:
-  Frontend: React, Redux-tookit, axios
+  Frontend: React, Redux-tookit, axios  
   Backend: Node.js + Express  
   Database: MySQL  
 
