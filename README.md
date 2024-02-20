@@ -41,6 +41,7 @@
   cd npm run mysql-admin 
 ```
 
-   http://127.0.0.1:8082/  
+   ```http://127.0.0.1:8082/  
    Логин: admin  
    Пароль: QQqq44 
+```
